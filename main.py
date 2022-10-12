@@ -9,4 +9,13 @@ bot = commands.Bot(command_prefix='>', intents=intents)
 async def feidms(ctx):
     await ctx.send('vc')
 
-bot.run('MTAyOTgxOTc0NjkxODYwMDc4NA.GKl2JY.NVf1L7zob9dNBk7nRy7NpodEx4mUTPyfZdzj88')
+@bot.command()
+async def kirufeio(ctx):
+    await ctx.send('concordo')
+
+@bot.command()
+async def embed(ctx):
+    embed=discord.Embed(title="ALEK GAYZAO", url="https://upload.wikimedia.org/wikipedia/en/8/87/Keyboard_cat.jpg", description="GATO FODA TOCANDO PIANO", color=0xFF5733)
+    await ctx.send(embed=embed)
+
+bot.run('MTAyOTgxOTc0NjkxODYwMDc4NA.Gj90FW.-PGGJ-WiOIKMLyBkwSOAIaFkuBVTb1BPFAdVHA')
